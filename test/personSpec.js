@@ -1,6 +1,6 @@
 var chai = require('chai');
 var expect = chai.expect;
-var Person = require('../src/Person');
+var Person = require('Person');
 
 describe('Person', function () {
   it('should report name', function () {
